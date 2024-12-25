@@ -52,5 +52,13 @@ export default class loginPage {
     static buttonCancle(){
         return cy.get('[class="oxd-button oxd-button--large oxd-button--ghost orangehrm-forgot-password-button orangehrm-forgot-password-button--cancel"]');
     }
+    
+    static menuDropdown(){
+        return cy.get('[class="oxd-userdropdown-tab"]');
+    }
+
+    static buttonLogout(){
+        return cy.get('[class="oxd-userdropdown-link"]');
+    }
 
 }
